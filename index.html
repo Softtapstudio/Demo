@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BACKGROUND -->
+<div class="bg"></div>
+<div class="overlay"></div>
+
+<div class="container">
+
+  <!-- INTRO -->
+  <section class="section hero">
+    <img src="images/stitch.png" class="stitch">
+
+    <h1 class="title">
+      Hey... someone has something for you 💌
+    </h1>
+
+    <div class="scroll-indicator">
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- ENVELOPE -->
+  <section class="section interact">
+
+    <div class="content">
+
+      <div class="envelope" onclick="openLetter()">
+        <div class="flap"></div>
+        <div class="body"></div>
+      </div>
+
+      <div class="choices">
+        <button class="open-btn" onclick="openLetter()">
+          Open 💌
+        </button>
+
+        <button id="noBtn" class="no-btn">
+          Don’t open 💔
+        </button>
+      </div>
+
+      <div class="reveal-heart">💖</div>
+
+      <div class="hidden-text">
+        <p>From the moment I met you… 💖</p>
+        <p>You became my happiness… ✨</p>
+        <p>Everything feels special with you…</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PHOTO -->
+  <section class="section">
+    <img src="images/photo1.JPG" class="photo">
+    <p class="caption">You became my happiness…</p>
+  </section>
+
+  <!-- PHOTO -->
+  <section class="section">
+    <img src="images/photo2.JPG" class="photo">
+    <p class="caption">Every moment feels special…</p>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="section">
+    <video muted autoplay loop playsinline>
+      <source src="images/video1.mp4" type="video/mp4">
+    </video>
+
+    <p class="caption">
+      Every moment feels alive…
+    </p>
+  </section>
+
+  <!-- PHOTO -->
+  <section class="section">
+    <img src="images/photo3.JPG" class="photo">
+
+    <p class="caption">
+      You mean everything to me…
+    </p>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="section">
+    <video muted autoplay loop playsinline>
+      <source src="images/video2.mp4" type="video/mp4">
+    </video>
+
+    <p class="caption">
+      And I cherish every second…
+    </p>
+  </section>
+
+  <!-- FINAL -->
+  <section class="section final">
+
+    <div class="card-bg" id="cardBg"></div>
+
+    <div class="final-overlay">
+
+      <h1>Happy Birthday 💖🎂</h1>
+
+      <p class="final-text">
+        I truly hope this year brings you endless happiness, beautiful memories, genuine smiles, and all the love you deserve. No matter where life takes you, never forget how special and appreciated you are. 
+
+         Thank you for being someone who can make ordinary moments feel magical ✨
+
+         Keep shining, keep smiling, and enjoy every second of your special day 💕
+</p>
+
+    </div>
+
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
